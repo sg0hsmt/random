@@ -1,5 +1,5 @@
 {
   "go.alternateTools": {
-    "go": "gotip"
+    "go": "go1.18beta1"
   }
 }

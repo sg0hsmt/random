@@ -15,28 +15,28 @@ See example test code.
 
 ## Test
 
-```bash
-$ gotip test .
+```console
+$ go1.18beta1 test .
 ```
 
 ## Develop Setting (VSCode)
 
-Download and install gotip.
+Download and install go1.18beta1.
 
-https://pkg.go.dev/golang.org/dl/gotip
+https://pkg.go.dev/golang.org/dl/go1.18beta1
 
-```bash
-$ go install golang.org/dl/gotip@latest
-$ gotip download
+```console
+$ go install golang.org/dl/go1.18beta1@latest
+$ go1.18beta1 download
 ```
 
-Download and install gopls by gotip.
+Download and install gopls by go1.18beta1.
 
 https://github.com/golang/tools/blob/master/gopls/doc/advanced.md
 
-```bash
-$ gotip get golang.org/x/tools/gopls@master golang.org/x/tools@master
-$ gotip install golang.org/x/tools/gopls
+```console
+$ go1.18beta1 get golang.org/x/tools/gopls@master golang.org/x/tools@master
+$ go1.18beta1 install golang.org/x/tools/gopls
 ```
 
 Change vscode settings.
@@ -46,7 +46,7 @@ https://github.com/golang/vscode-go/blob/master/docs/settings.md#goalternatetool
 ```json
 {
   "go.alternateTools": {
-    "go": "gotip"
+    "go": "go1.18beta1"
   }
 }
 ```
