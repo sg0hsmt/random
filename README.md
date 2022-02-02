@@ -33,22 +33,22 @@ act -j test
 
 ## Develop Setting (VSCode)
 
-Download and install go1.18beta1.
+Download and install go1.18beta2.
 
-https://pkg.go.dev/golang.org/dl/go1.18beta1
+https://pkg.go.dev/golang.org/dl/go1.18beta2
 
 ```console
-go install golang.org/dl/go1.18beta1@latest
-go1.18beta1 download
+go install golang.org/dl/go1.18beta2@latest
+go1.18beta2 download
 ```
 
-Download and install gopls by go1.18beta1.
+Download and install gopls by go1.18beta2.
 
 https://github.com/golang/tools/blob/master/gopls/doc/advanced.md
 
 ```console
-go1.18beta1 get golang.org/x/tools/gopls@master golang.org/x/tools@master
-go1.18beta1 install golang.org/x/tools/gopls
+go1.18beta2 get golang.org/x/tools/gopls@master golang.org/x/tools@master
+go1.18beta2 install golang.org/x/tools/gopls
 ```
 
 Change vscode settings.
@@ -58,7 +58,7 @@ https://github.com/golang/vscode-go/blob/master/docs/settings.md#goalternatetool
 ```json
 {
   "go.alternateTools": {
-    "go": "go1.18beta1"
+    "go": "go1.18beta2"
   }
 }
 ```
