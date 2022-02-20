@@ -22,7 +22,7 @@ See example test code.
 ## Test
 
 ```console
-go1.18beta1 test .
+go1.18rc1 test .
 ```
 
 You can use GitHub Actions locally by [act](https://github.com/nektos/act).
@@ -33,22 +33,21 @@ act -j test
 
 ## Develop Setting (VSCode)
 
-Download and install go1.18beta2.
+Download and install go1.18rc1.
 
-https://pkg.go.dev/golang.org/dl/go1.18beta2
+https://pkg.go.dev/golang.org/dl/go1.18rc1
 
 ```console
-go install golang.org/dl/go1.18beta2@latest
-go1.18beta2 download
+go install golang.org/dl/go1.18rc1@latest
+go1.18rc1 download
 ```
 
-Download and install gopls by go1.18beta2.
+Download and install gopls by go1.18rc1.
 
 https://github.com/golang/tools/blob/master/gopls/doc/advanced.md
 
 ```console
-go1.18beta2 get golang.org/x/tools/gopls@master golang.org/x/tools@master
-go1.18beta2 install golang.org/x/tools/gopls
+go1.18rc1 install golang.org/x/tools/gopls@latest
 ```
 
 Change vscode settings.
@@ -58,7 +57,7 @@ https://github.com/golang/vscode-go/blob/master/docs/settings.md#goalternatetool
 ```json
 {
   "go.alternateTools": {
-    "go": "go1.18beta2"
+    "go": "go1.18rc1"
   }
 }
 ```
