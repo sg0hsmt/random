@@ -22,42 +22,11 @@ See example test code.
 ## Test
 
 ```console
-go1.18rc1 test .
+go test .
 ```
 
 You can use GitHub Actions locally by [act](https://github.com/nektos/act).
 
 ```console
 act -j test
-```
-
-## Develop Setting (VSCode)
-
-Download and install go1.18rc1.
-
-https://pkg.go.dev/golang.org/dl/go1.18rc1
-
-```console
-go install golang.org/dl/go1.18rc1@latest
-go1.18rc1 download
-```
-
-Download and install gopls by go1.18rc1.
-
-https://github.com/golang/tools/blob/master/gopls/doc/advanced.md
-
-```console
-go1.18rc1 install golang.org/x/tools/gopls@latest
-```
-
-Change vscode settings.
-
-https://github.com/golang/vscode-go/blob/master/docs/settings.md#goalternatetools
-
-```json
-{
-  "go.alternateTools": {
-    "go": "go1.18rc1"
-  }
-}
 ```
