@@ -12,9 +12,13 @@ jobs:
   tinygo:
     strategy:
       matrix:
-        go-version: ["1.18.x"]
-        tinygo: ["0.24.0"]
-        platform: [ubuntu-latest]
+        include:
+          - platform: ubuntu-latest
+            go-version: "1.18.x"
+            tinygo: "0.24.0"
+          - platform: ubuntu-latest
+            go-version: "1.20.x"
+            tinygo: "0.28.0"
     env:
       GO111MODULE: on
     runs-on: ${{ matrix.platform }}
